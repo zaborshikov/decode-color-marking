@@ -1,7 +1,5 @@
 import cv2
 
-image = cv2.imread("6Pxoh5ac-ngx7-5FDY-0diJ-gl9Nbw2P81dG.jpg")
-
 def image_prep(image=image):
     kernel = cv2.getStructuringElement(cv2.MORPH_RECT, (7, 7))
     rgb_min = (150, 160, 150)
